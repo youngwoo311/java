@@ -1,4 +1,4 @@
-package first_project.part1;
+package java_basic.part1;
 
 /**
  *

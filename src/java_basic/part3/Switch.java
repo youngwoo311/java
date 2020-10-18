@@ -1,4 +1,4 @@
-package first_project.part3;
+package java_basic.part3;
 
 public class Switch {
     public static void main(String[] args) {
