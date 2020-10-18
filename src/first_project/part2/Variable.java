@@ -1,4 +1,4 @@
-package first_project;
+package first_project.part2;
 
 public class Variable {
     public static void main(String[] args) {
