@@ -1,4 +1,4 @@
-package java_basic.part2;
+package part2;
 
 public class OperatorPrecedence {
     public static void main(String[] args) {

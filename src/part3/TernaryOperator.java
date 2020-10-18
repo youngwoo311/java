@@ -1,4 +1,4 @@
-package java_basic.part3;
+package part3;
 
 public class TernaryOperator {
     public static void main(String[] args) {

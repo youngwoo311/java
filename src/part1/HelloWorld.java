@@ -1,4 +1,4 @@
-package java_basic.part1;
+package part1;
 
 /**
  *
