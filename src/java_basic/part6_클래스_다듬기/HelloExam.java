@@ -1,11 +1,12 @@
 package java_basic.part6_클래스_다듬기;
 
-import javastudy.*;
+
+import java_basic.part1_자바_시작하기.HelloWorld;
 
 public class HelloExam {
 
     public static void main(String[] args) {
-        Hello hello = new Hello();
+        HelloWorld hello = new HelloWorld();
 
     }
 }
