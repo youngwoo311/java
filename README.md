@@ -1,3 +1,3 @@
-# Java 복습
-### 자바 기초 : https://programmers.co.kr/learn/courses/5
-### 자바 중급 : https://programmers.co.kr/learn/courses/9
+# java_basic
+자바 기초 복습
+https://programmers.co.kr/learn/courses/5
