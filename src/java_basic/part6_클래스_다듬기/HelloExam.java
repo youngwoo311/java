@@ -6,7 +6,7 @@ import java_basic.part1_자바_시작하기.HelloWorld;
 public class HelloExam {
 
     public static void main(String[] args) {
-        HelloWorld hello = new HelloWorld();
+        HelloWorld helloWorld = new HelloWorld();
 
     }
 }
