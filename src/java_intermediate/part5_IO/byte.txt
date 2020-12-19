@@ -14,7 +14,7 @@ public class ByteExam1 {
 
         try {
             fis = new FileInputStream("src/java_intermediate/part5_IO/ByteExam1.java");
-            fos = new FileOutputStream("byte.txt");
+            fos = new FileOutputStream("src/java_intermediate/part5_IO/byte.txt");
 
             int readData = -1;
             while((readData = fis.read()) != -1) {
