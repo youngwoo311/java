@@ -12,6 +12,7 @@ public class TimeExam {
         System.out.println(timePoint);
 
         LocalDate ld1 = LocalDate.of(2012, Month.DECEMBER, 12);
+
         System.out.println(ld1);
 
         LocalTime lt1 = LocalTime.of(17, 18);
@@ -26,5 +27,6 @@ public class TimeExam {
         Month month = timePoint.getMonth();
         System.out.println(month.getValue());
         System.out.println(timePoint.getHour());
+
     }
 }

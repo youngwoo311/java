@@ -1,4 +1,4 @@
-package java_basic.part9_에외처리;
+package java_basic.part9_예외처리;
 
 public class ExceptionExam2 {
 
