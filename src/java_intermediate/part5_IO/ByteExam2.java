@@ -1,12 +1,10 @@
 package java_intermediate.part5_IO;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.sql.SQLOutput;
 
-public class ByteExam1 {
+public class ByteExam2 {
 
     public static void main(String[] args) {
 
@@ -17,11 +15,13 @@ public class ByteExam1 {
 
         try {
             fis = new FileInputStream("src/java_intermediate/part5_IO/ByteExam1.java");
-            fos = new FileOutputStream("src/java_intermediate/part5_IO/byte.txt");
+            fos = new FileOutputStream("src/java_intermediate/part5_IO/byte2.txt");
 
-            int readData = -1;
-            while((readData = fis.read()) != -1) {
-                fos.write(readData);
+
+            int readCount = -1;
+            byte[] buffer = new byte[512];
+            while((readCount = fis.read(buffer)) != -1) {
+                fos.write(buffer, 0, readCount);
             }
 
         } catch (Exception e) {
